@@ -1,0 +1,48 @@
+[
+    {
+        "question": "Which of the following will write the message “Hello World!” in an alert box?",
+        "answers": [
+            { "text": "alert(“Hello World!”);", "correct": true },
+            { "text": "msgAlert(“Hello World!”);", "correct": false },
+            { "text": "alertBox(“Hello World!”);", "correct": false },
+            { "text": "alert(Hello World!);", "correct": false }
+        ]
+    },
+    {
+        "question": "Which are the correct “if” statements to execute certain code if “x” is equal to 2?",
+        "answers": [
+            { "text": "if(x = 2)", "correct": false },
+            { "text": "if(x == 2)", "correct": true },
+            { "text": "if(x 2)", "correct": false },
+            { "text": "if(x != 2 )", "correct": false }
+        ]
+    },
+    {
+        "question": "Upon encountering empty statements, what does the Javascript Interpreter do?",
+        "answers": [
+            { "text": "Throws an error.", "correct": false },
+            { "text": "Gives a warning.", "correct": false },
+            { "text": "Ignores the statement.", "correct": true },
+            { "text": "None of the above.", "correct": false }
+        ]
+    },
+    {
+        "question": "Which JavaScript method is used to write HTML output?",
+        "answers": [
+            { "text": "document.output()", "correct": false },
+            { "text": "console.log()", "correct": false },
+            { "text": "document.writeHTML()", "correct": false },
+            { "text": "document.write()", "correct": true }
+        ]
+    },
+    {
+        "question": "Which of the following statement(s) is true about the JavaScript?",
+        "answers": [
+            { "text": "It's a scripting language used to make the website interactive", "correct": true },
+            { "text": "It's an advanced version of Java for Desktop and Mobile development", "correct": false },
+            { "text": "It is a markup language of Java to develop the webpages", "correct": false },
+            { "text": "All of the above", "correct": false }
+        ]
+    }
+
+]

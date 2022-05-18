@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #212121;
+    
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    max-width: 80%;
+    background-color: #ffd940;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.title {
+    color: #212121;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.text {
+    color: #ffd940;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#questions {
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*BUTTONS*/
+.btn {
+    background-color: #212121;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 3px;
+    padding-left: 15px;
+    padding-right: 15px;  
+}
+
+.btn.correct-ans {
+    background-color: green;
+}
+
+.btn.wrong-ans {
+    background-color: red;
+}
+
+.btn:hover, .start-btn:hover, .next-btn:hover, .again-btn:hover {
+    background-color: #d48b00;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+
+.controls-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5em;
+}
+
+.start-btn {
+    background-color: #212121;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 25px;
+}
+
+.next-btn {
+    visibility: hidden;
+    background-color: #ffd940;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.again-btn {
+    background-color: #ffd940;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hide {
+    visibility: hidden;
+    position: absolute;
+}
+
+/*GITHUB LINK*/
+.link {
+    color: #ffd940;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+.link:hover {
+    color: #d48b00;
+}
