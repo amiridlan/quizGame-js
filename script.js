@@ -73,7 +73,10 @@ function selectedAnswer(e) {
         nextButton.style.setProperty('visibility', 'visible')
     } else {
         // End game
-        window.location.href = "./again.html"
+        setTimeout( () => {
+            window.location.href = "./again.html"
+            
+        }, 350)
     }
 }
 
