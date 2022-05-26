@@ -1,3 +1,3 @@
 # quizGame-js
-A simple quiz game in javascript.
-link : https://amiridlan.github.io/quizGame-js/
+A simple quiz game in Javascript.\
+Link to website: https://amiridlan.github.io/quizGame-js/
